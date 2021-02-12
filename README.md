@@ -5,13 +5,13 @@ which is navigated using keyboard/mouse to Run the program.
 
 Menu: 
 
-![SCREEN1](https://user-images.githubusercontent.com/28883884/107786955-2711ea80-6d57-11eb-88eb-272cd2028a57.PNG)
+![menu](https://user-images.githubusercontent.com/28883884/107787321-9d165180-6d57-11eb-977f-2e5860398d4a.PNG)
 
 
 Algorithm: 
 left mouse click is used to set [start/end] points and obsticles seperating them, right mouse click to Erase, Space key to Run
 
-![Screen 4](https://user-images.githubusercontent.com/28883884/107631060-1ab16300-6c6d-11eb-8b06-840472fad0cc.PNG)
+![SCREEN1](https://user-images.githubusercontent.com/28883884/107786955-2711ea80-6d57-11eb-88eb-272cd2028a57.PNG)
 
 
 Result : 
