@@ -5,7 +5,7 @@ which is navigated using keyboard/mouse to Run the program.
 
 Menu: 
 
-![Screen1](https://user-images.githubusercontent.com/28883884/107630515-50a21780-6c6c-11eb-8b8e-c00c820c54ed.PNG)
+![SCREEN1](https://user-images.githubusercontent.com/28883884/107786955-2711ea80-6d57-11eb-88eb-272cd2028a57.PNG)
 
 
 Algorithm: 
@@ -15,6 +15,6 @@ left mouse click is used to set [start/end] points and obsticles seperating them
 
 
 Result : 
-![screen 5](https://user-images.githubusercontent.com/28883884/107631135-33ba1400-6c6d-11eb-9f40-e17be7a17da0.PNG)
+![SCREEN2](https://user-images.githubusercontent.com/28883884/107787026-3bee7e00-6d57-11eb-8c8a-e312444bd90a.PNG)
  
  Final Shortest path will be drawn in purple. 
