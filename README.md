@@ -22,5 +22,5 @@ right mouse click to Erase, Space key to Run
  
  Final Shortest path will be drawn in purple. 
  
- **how to run**
-install pygame and pygame-menu libraries
+ **make sure to import pygame and pygame-menu libraries **
+
