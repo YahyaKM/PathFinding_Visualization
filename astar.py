@@ -8,12 +8,11 @@ pygame.display.set_caption("A* Path Finding Algorithm")
 
 
 GREEN = (0, 255, 0)
-BLUE = (192 , 192, 192)
+BROWN = (139, 69, 19)
 YELLOW = (255, 255, 0)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 PURPLE = (128, 0, 128)
-ORANGE = (255, 165 ,0)
 GREY = (128, 128, 128)
 TURQUOISE = (64, 224, 208)
 
@@ -23,7 +22,7 @@ class Node:
         self.col = col
         self.x = row * width
         self.y = col * width
-        self.color = BLUE
+        self.color = BLACK
         self.neighbors = []
         self.width = width
         self.total_rows = total_rows
@@ -38,19 +37,19 @@ class Node:
         return self.color == GREEN
         #IF BARRIER NODE #
     def is_barrier(self):
-        return self.color == BLACK
+        return self.color == BROWN
     #IF START NODE #
     def is_start(self):
-        return self.color == ORANGE
+        return self.color == YELLOW
     #IF END NODE #
     def is_end(self):
         return self.color == TURQUOISE
     #RESET CURRENT NODE #
     def reset(self):
-        self.color = BLUE
+        self.color = BLACK
     #MAKE START NODE #
     def make_start(self):
-        self.color = ORANGE
+        self.color = YELLOW
     #MAKE VISITED NODE#
     def make_visited(self):
         self.color = WHITE
@@ -59,7 +58,7 @@ class Node:
         self.color = GREEN
     #MAKE BARRIER NODE #
     def make_barrier(self):
-        self.color = BLACK
+        self.color = BROWN
     #MAKE END NODE #
     def make_end(self):
         self.color = TURQUOISE
@@ -88,9 +87,9 @@ class Node:
         return False
 
  #HUERISTIC FUNC. TO CALCULATE MANHATTAN DISTANCE OF 2 POINTS#
-def h(p1, p2):
-    x1, y1 = p1
-    x2, y2 = p2
+def h(N1, N2):
+    x1, y1 = N1
+    x2, y2 = N2
     return abs(x1 - x2) + abs(y1 - y2)
 
 
@@ -168,7 +167,7 @@ def draw_grid(win, rows, width):
 
 
 def draw(win, grid, rows, width):
-    win.fill(BLUE)
+    win.fill(BLACK)
 
     for row in grid:
         for spot in row:
