@@ -1,6 +1,6 @@
 # PathFinding_Visualization
 
-This program is a visual Implementation for A* Algorithm in Pygame Python and a menu GUI
+visual Implementation for A* Algorithm in Pygame Python and a menu GUI
 which is navigated using keyboard/mouse to Run the program. 
 
 **Menu** 
